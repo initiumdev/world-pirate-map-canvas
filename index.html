@@ -15,11 +15,11 @@
 
 <body>
   <div id="header-container">
-  <a href="https://theinitium.com">
-    <img width='100px' src='/images/icon.svg' />
-  </a>
-  <h1>互動地圖看世界海盜活動</h1>
-  <p class="author-name">端傳媒數據記者 林佳賢</p>
+    <a href="https://theinitium.com">
+      <img width='100px' src='/images/icon.svg' />
+    </a>
+    <h1>互動地圖看世界海盜活動</h1>
+    <p class="author-name">端傳媒數據記者 林佳賢</p>
   </div>
   <div id="viz-container">
     <div id="prologue">
@@ -311,5 +311,18 @@
         .duration(2000)
         .call(zoom.transform, transform);
     }
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-65642613-1', 'auto');
+    ga('send', 'pageview');
   </script>
 </body>
