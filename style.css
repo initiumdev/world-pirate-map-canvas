@@ -20,6 +20,7 @@ a {
 }
 
 .author-name {
+  display: inline;
     color: #838383;
     font-size: 14px;
     vertical-align: 5px;
@@ -87,6 +88,10 @@ canvas {
   margin: 30px auto 10px auto;
   width: 960px;
   height: 600px;
+}
+
+.fb-share-button {
+  display: inline-block;
 }
 
 @media screen and (max-width: 480px) {
